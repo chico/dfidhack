@@ -39,17 +39,17 @@
 	      <div class="navbar-inner">
 	        <div class="container">
 	          <ul class="nav">
-	            <li>
+	            <li @if("home".equalsIgnoreCase(title)) {class="active"}>
 	              <a href="/">
 	                Home
 	              </a>
 	            </li>
-	            <li>
+	            <li @if("special reports".equalsIgnoreCase(title)) {class="active"}>
 	              <a href="/reports">
 	                Special Reports
 	              </a>
 	            </li>
-	            <li>
+	            <li @if("have your say".equalsIgnoreCase(title)) {class="active"}>
 	              <a href="/feedback">
 	                Have Your Say
 	              </a>

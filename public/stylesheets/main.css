@@ -107,6 +107,27 @@ h4 {
 	padding-left: 30px;
 	padding-right: 10px;
 }
+
+.feedback {
+	margin-top: 20px;
+	margin-left: 200px;
+	width: 500px;
+	background: white;
+	-webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+	border: 1px solid #EEE;
+}
+
+.stamp {
+	position:absolute;
+	top: 260px;
+	left: 650px;
+	background: url("../images/stamp.jpg");
+	width: 90px;
+	height: 105px;
+}
+
 /* header */
 
 #header-top {

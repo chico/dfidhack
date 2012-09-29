@@ -15,10 +15,10 @@ Java 1.6 and later.
 
 ### Heroku git setup
 
-	$ git remote add heroku git@heroku.com:dfidhack.git
+	$ git remote add heroku git@heroku.com:trademize.git
 	$ git remote -v
-	heroku	git@heroku.com:dfidhack.git (fetch)
-	heroku	git@heroku.com:dfidhack.git (push)
+	heroku	git@heroku.com:trademize.git (fetch)
+	heroku	git@heroku.com:trademize.git (push)
 	origin	git@github.com:chico/dfidhack.git (fetch)
 	origin	git@github.com:chico/dfidhack.git (push)
 
@@ -30,6 +30,6 @@ Java 1.6 and later.
 
 ### DFID Hack on Heroku
 
-[http://dfidhack.herokuapp.com](http://dfidhack.herokuapp.com/)
+[http://trademize.herokuapp.com](http://trademize.herokuapp.com)
 
 

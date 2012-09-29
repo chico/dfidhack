@@ -2,9 +2,112 @@
 body {
 	height: 100%;
 	padding-top: 205px; /* make the container go all the way to the bottom of the topbar */
-	margin: 0;
+	margin-bottom: 100px; /* allow for footer space */
 	background-color: #ADD7E1;
 }
+
+h4 {
+	text-transform: uppercase;
+	font-size: 18px;
+	background-color: #FFF;
+	padding: 15px 25px;
+	margin-bottom: 5px;
+}
+
+.highlight {
+	text-transform: uppercase;
+	color: #DC4721;
+}
+
+.clear {
+	clear: both;
+}
+
+.top-space5 {
+	padding-top: 5px;
+}
+.top-space10 {
+	padding-top: 10px;
+}
+.top-space15 {
+	padding-top: 15px;
+}
+
+.bottom-space5 {
+	padding-bottom: 5px;
+}
+.bottom-space10 {
+	padding-bottom: 10px;
+}
+.bottom-space15 {
+	padding-bottom: 15px;
+}
+
+.bubble {
+	width: 76px;
+	height: 75px;
+}
+
+.bubble1 {
+	background: url("../images/bubble1.gif");	
+}
+.bubble2 {
+	background: url("../images/bubble2.gif");	
+}
+.bubble3 {
+	background: url("../images/bubble3.gif");	
+}
+
+.product {
+	width: 30px;
+	height: 30px;
+}
+
+.water {
+	background: url("../images/water.png");
+}
+.tea {
+	background: url("../images/tea1.png");
+}
+.shoes {
+	background: url("../images/shoes.png") center -10px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.border-top {
+	border-top: 2px solid;
+}
+.border-bottom {
+	border-bottom: 2px solid;
+}
+.border-right {
+	border-right: 2px solid;
+}
+.border-left {
+	border-left: 2px solid;
+}
+
+.border-white {
+	border-color: #FFF;
+}
+
+.country-column {
+	width: 100px;
+	padding-left: 10px;
+}
+.tariff-column {
+	margin: 0;
+	padding-left: 30px;
+}
+.retailprice-column {
+	margin: 0;
+	padding-left: 30px;
+	padding-right: 10px;
+}
+/* header */
 
 #header-top {
 	background: #000;
@@ -18,9 +121,12 @@ body {
 	padding-top: 65px;
 }
 
-.highlight {
-	color: #DC4721;
+/* grid3 */
+
+.grid3 {
 }
+
+/* footer */
 
 #footer {
 	background: #1E1E1E;

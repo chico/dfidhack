@@ -138,6 +138,53 @@ h4 {
   background-color: transparent;
 }
 
+/* report */
+
+.report-search {
+	display: block;
+	background-color: #404040;
+	width: 1170px;
+	height: 500px;
+	background: url("../images/black-tea-bg.jpg") no-repeat scroll 0 0 #404040;
+	margin-top: 20px;
+	-webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+	border: 1px solid #EEE;
+}
+
+.report-search form {
+	position: relative;
+	overflow: hidden;
+	width: 280px;
+	margin: 0 auto 4px auto;
+	padding: 200px 0 0 0;
+	display: block;
+}
+
+.report-search form select {
+	width: 100%;
+}
+
+#report-search-results {	
+	position: relative;
+	overflow: hidden;
+	margin: 20px;
+	padding: 0;
+	display: block;	
+}
+
+#report-search-results h1 {
+	color: #FFF;
+	font-size: 36px;
+	line-height: 36px;
+}
+
+#report-search-results h1 .highlight {
+	font-size: 102px;
+	line-height: 102px;
+}
+
 /* header */
 
 #header-top {

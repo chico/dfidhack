@@ -1,5 +1,37 @@
 @main("special reports") {
     
-<h3><span class="highlight">SPECIAL REPORTS</span></h3>
+<h3><span class="highlight">WE ALL LOVE A CUP OF TEA</span> but how much would you save with a 1% change in black tea trade barriers and trade-related costs?</h3>
+
+<div class="report-search">
+	<form id="report-search-form">
+		<select id="report-search-country">
+		  <option value="">Select your country</option>
+		  <option value="canada">Canada</option>
+		  <option value="ecuador">Ecuador</option>		  
+		  <option value="india">India</option>
+		  <option value="nigeria">Nigeria</option>
+		  <option value="south africa">South Africa</option>		  
+		</select>
+		<select id="report-search-number-teas">
+		  <option value="">How many cups of tea do you drink daily?</option>
+		  <option value="1">1</option>
+		  <option value="2">2</option>		  
+		  <option value="3">3</option>
+		  <option value="4">4</option>
+		  <option value="5">5</option>
+		  <option value="6">6</option>
+		  <option value="7">7</option>
+		  <option value="8">8</option>
+		  <option value="9">9</option>
+		  <option value="10">10</option>
+		</select>
+		<button id="btn-report-search-submit" type="submit" class="btn">Submit</button>
+	</form>
+	<div id="report-search-results" style="display: none;">
+		<h1>You would save<br/><span id="report-search-result" class="highlight"></span><br/>on black tea</h1>
+	</div>	
+</div>
+
+
 
 }

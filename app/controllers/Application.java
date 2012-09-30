@@ -18,4 +18,8 @@ public class Application extends Controller {
     return ok(feedback.render());
   }
   
+  public static Result prezi() {
+    return ok(prezi.render());
+  }
+  
 }

@@ -104,13 +104,16 @@ h4 {
 }
 .retailprice-column {
 	margin: 0;
+	width: 80px;
 	padding-left: 30px;
 	padding-right: 10px;
 }
 
 .feedback {
+	float: left;
+	position: relative;
 	margin-top: 20px;
-	margin-left: 200px;
+	margin-left: 250px;
 	width: 500px;
 	height: 327px;
 	background: white;
@@ -122,8 +125,8 @@ h4 {
 
 .stamp {
 	position:absolute;
-	top: 260px;
-	left: 650px;
+	top: 5px;
+	right: 5px;
 	background: url("../images/stamp.jpg");
 	width: 90px;
 	height: 105px;
@@ -147,6 +150,12 @@ h4 {
 	font-weight: bold;
 	font-size: 52px;
 	padding-top: 65px;
+}
+
+.header-bg {
+	background: url("../images/header.gif") center center no-repeat;
+	width: 770px;
+	height: 145px;
 }
 
 /* grid3 */

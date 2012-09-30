@@ -14,6 +14,11 @@ h4 {
 	margin-bottom: 5px;
 }
 
+.share {
+	margin-top: 3px;
+	margin-right: 35px;
+}
+
 .highlight {
 	text-transform: uppercase;
 	color: #DC4721;

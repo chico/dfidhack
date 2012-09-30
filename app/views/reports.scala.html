@@ -1,6 +1,10 @@
 @main("special reports") {
     
-<h3><span class="highlight">WE ALL LOVE A CUP OF TEA</span> but how much would you save with a 1% change in black tea trade barriers and trade-related costs?</h3>
+<div class="row">
+  <div class="span12">
+    <span class="pull-left"><h3><span class="highlight">WE ALL LOVE A CUP OF TEA</span> but how much would you save with a 1% change in black tea trade barriers and trade-related costs?</h3></span>  	
+  </div>
+</div>
 
 <div class="report-search">
 	<form id="report-search-form">
@@ -28,7 +32,23 @@
 		<button id="btn-report-search-submit" type="submit" class="btn">Submit</button>
 	</form>
 	<div id="report-search-results" style="display: none;">
-		<h1>You would save<br/><span id="report-search-result" class="highlight"></span><br/>on black tea</h1>
+		<span class="pull-left"><h1>You would save<br/><span id="report-search-result" class="highlight"></span><br/>on black tea</h1></span>
+		<span class="pull-right share">
+		  	<!-- AddThis Button BEGIN -->
+			<div class="addthis_toolbox addthis_default_style "
+				addthis:url="http://trademize.herokuapp.com/reports"
+		        addthis:title="How much would you save with a 1% change in black tea trade barriers and trade-related costs? #trademize">
+			<a class="addthis_button_tweet"></a>
+			</div>
+			<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+			<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-506839fc7894c474"></script>
+			<script type="text/javascript"> 
+			var addthis_config = {
+			     data_track_clickback: false 
+			}
+			</script> 
+			<!-- AddThis Button END -->
+		</span>
 	</div>
 </div>
 
